@@ -23,6 +23,7 @@ This repository is for a small Ren'Py visual novel / light management sim protot
 - Target engine: Ren'Py 8.5.2, stable release checked during planning.
 - Ren'Py is not currently expected to be on PATH.
 - Python 3.11.3, Git, Node/npm, GitHub CLI, and Codex CLI are available locally.
+- GitHub CLI authentication is valid for `Lokinious`; authenticated `gh` commands may need system keyring access.
 
 ## First Milestone
 

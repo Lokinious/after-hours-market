@@ -11,3 +11,4 @@
 - Hand-scaffolded minimal Ren'Py files in `game/options.rpy` and `game/script.rpy`.
 - Built the first Day 1 prototype flow with cash, inventory, reputation, and stress variables.
 - Launch verification is pending until Ren'Py 8.5.2 is installed or located.
+- Re-authenticated GitHub CLI as `Lokinious`; authenticated `gh` commands may need normal system keyring access.
