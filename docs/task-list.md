@@ -5,9 +5,9 @@
 - [x] Create local project folder.
 - [x] Initialize Git repository.
 - [x] Add AI-friendly repository docs.
-- [x] Check GitHub CLI authentication. Logged in as `Lokinious`.
+- [x] Check GitHub CLI authentication. Auth worked for remote setup, but re-check before future `gh` operations because keyring context can vary.
 - [x] Create GitHub remote after authentication is fixed.
-- [ ] Install or locate Ren'Py 8.5.2.
+- [x] Install or locate Ren'Py 8.5.2.
 - [x] Create or import Ren'Py project structure. Hand-scaffolded minimal `game/` files.
 
 ## Day 1 Prototype
@@ -20,7 +20,7 @@
 - [x] Add late-day strange beat.
 - [x] Add closing summary.
 - [x] Fix moon salt outcome tracking for late-customer truth branch.
-- [ ] Verify game launches in Ren'Py.
+- [x] Verify game launches in Ren'Py.
 
 ## Later Ideas
 

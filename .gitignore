@@ -14,6 +14,10 @@
 /game/log.txt
 /game/errors.txt
 /game/traceback.txt
+/log.txt
+/errors.txt
+/traceback.txt
+/trace.txt
 
 # Python
 __pycache__/
@@ -33,4 +37,3 @@ Desktop.ini
 # Local notes
 local-notes.md
 renpy-path.txt
-

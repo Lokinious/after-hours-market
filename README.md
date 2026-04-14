@@ -6,7 +6,7 @@ The first goal is a compact, playable Day 1 prototype with basic shop stats, rec
 
 ## Status
 
-Day 1 prototype scaffold stage. The repository now contains minimal Ren'Py files in `game/`, but launch verification is pending until Ren'Py 8.5.2 is installed or located.
+Day 1 prototype verified in Ren'Py 8.5.2. The repository contains minimal Ren'Py files in `game/`, and lint plus direct launch checks have succeeded.
 
 ## Core Stats
 
@@ -17,17 +17,19 @@ Day 1 prototype scaffold stage. The repository now contains minimal Ren'Py files
 
 ## Local Setup Plan
 
-Ren'Py is not assumed to be installed or on PATH yet.
+Ren'Py 8.5.2 is installed outside the repo at `C:\renpy-8.5.2-sdk`.
 
-Recommended Windows setup:
+Run lint:
 
-1. Download Ren'Py 8.5.2 from the official Ren'Py site.
-2. Extract it somewhere stable, such as `C:\renpy-8.5.2-sdk`.
-3. Launch `renpy.exe`.
-4. Create or import this project once the project structure exists.
-5. Run the game from the Ren'Py launcher during early development.
+```powershell
+& 'C:\renpy-8.5.2-sdk\renpy.exe' 'C:\Users\caleb\dev\after-hours-market' lint
+```
 
-After Ren'Py is installed, document the local path in a non-committed note if needed.
+Run the game:
+
+```powershell
+& 'C:\renpy-8.5.2-sdk\renpy.exe' 'C:\Users\caleb\dev\after-hours-market' run
+```
 
 ## Repository Layout
 

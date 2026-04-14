@@ -20,10 +20,11 @@ This repository is for a small Ren'Py visual novel / light management sim protot
 
 ## Current Technical Context
 
-- Target engine: Ren'Py 8.5.2, stable release checked during planning.
-- Ren'Py is not currently expected to be on PATH.
+- Target engine: Ren'Py 8.5.2.
+- Ren'Py SDK is installed outside the repo at `C:\renpy-8.5.2-sdk`.
+- Local SDK path is recorded in gitignored `renpy-path.txt`.
 - Python 3.11.3, Git, Node/npm, GitHub CLI, and Codex CLI are available locally.
-- GitHub CLI authentication is valid for `Lokinious`; authenticated `gh` commands may need system keyring access.
+- GitHub CLI authentication can vary by keyring context; run `gh auth status` before remote operations.
 - Remote repository: `https://github.com/Lokinious/after-hours-market` (`origin`, private).
 
 ## First Milestone
@@ -43,4 +44,4 @@ Create a playable Day 1 slice:
 - `game/script.rpy`: Day 1 prototype script with shop stats and choices.
 - `docs/dev-log.md`: chronological project notes.
 
-Ren'Py launch/lint verification is still pending because Ren'Py is not available on PATH in this session.
+Ren'Py 8.5.2 lint and launch verification succeeded from `C:\renpy-8.5.2-sdk\renpy.exe`.
