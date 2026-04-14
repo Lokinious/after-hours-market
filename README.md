@@ -17,19 +17,21 @@ Day 1 prototype verified in Ren'Py 8.5.2. The repository contains minimal Ren'Py
 
 ## Local Setup Plan
 
-Ren'Py 8.5.2 is installed outside the repo at `C:\renpy-8.5.2-sdk`.
+Install Ren'Py 8.5.2 outside this repository, then launch or lint the project with your local SDK path.
 
 Run lint:
 
 ```powershell
-& 'C:\renpy-8.5.2-sdk\renpy.exe' 'C:\Users\caleb\dev\after-hours-market' lint
+& '<path-to-renpy-sdk>\renpy.exe' '<path-to-after-hours-market>' lint
 ```
 
 Run the game:
 
 ```powershell
-& 'C:\renpy-8.5.2-sdk\renpy.exe' 'C:\Users\caleb\dev\after-hours-market' run
+& '<path-to-renpy-sdk>\renpy.exe' '<path-to-after-hours-market>' run
 ```
+
+See `docs/setup-agent.md` and `docs/renpy-setup.md` for teammate onboarding and verified local setup notes.
 
 ## Repository Layout
 
