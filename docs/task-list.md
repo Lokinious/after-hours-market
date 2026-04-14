@@ -9,6 +9,7 @@
 - [x] Create GitHub remote after authentication is fixed.
 - [x] Install or locate Ren'Py 8.5.2.
 - [x] Create or import Ren'Py project structure. Hand-scaffolded minimal `game/` files.
+- [x] Add teammate onboarding setup guide.
 
 ## Day 1 Prototype
 
@@ -24,6 +25,7 @@
 
 ## Later Ideas
 
+- [ ] Teammates verify Ren'Py launch/lint on their own machines.
 - [ ] Split inventory into item categories.
 - [ ] Add customer relationship variables.
 - [ ] Add day planner screen.

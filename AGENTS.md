@@ -12,6 +12,7 @@ This repository is for a small Ren'Py visual novel / light management sim protot
 ## Working Rules
 
 - Read `README.md`, `docs/game-design.md`, `docs/story-bible.md`, and `docs/task-list.md` before making broad changes.
+- Teammate onboarding lives in `docs/setup-agent.md`; update it when setup or contribution workflow changes.
 - Keep `docs/task-list.md`, `docs/dev-log.md`, and this file updated when project status, workflow, or scope changes.
 - Do not rewrite existing story tone or character direction without updating the story bible.
 - Keep game variables visible and easy to reason about: cash, inventory, reputation, and stress.

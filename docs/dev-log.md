@@ -22,3 +22,4 @@
 - Confirmed Ren'Py version `8.5.2.26010301`.
 - Ran Ren'Py lint successfully with no reported errors.
 - Launched the project successfully with Ren'Py and stopped the test process after confirming it stayed running.
+- Added teammate onboarding setup guide in `docs/setup-agent.md`.

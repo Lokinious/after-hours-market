@@ -36,6 +36,7 @@ Run the game:
 - `AGENTS.md`: instructions for AI coding agents.
 - `docs/game-design.md`: mechanics and milestone scope.
 - `docs/renpy-setup.md`: Windows Ren'Py setup plan.
+- `docs/setup-agent.md`: teammate onboarding and local setup guide.
 - `docs/story-bible.md`: tone, premise, characters, and setting.
 - `docs/task-list.md`: incremental work list.
 - `.github/copilot-instructions.md`: GitHub Copilot guidance.

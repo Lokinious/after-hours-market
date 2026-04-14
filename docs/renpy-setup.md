@@ -18,6 +18,15 @@ Ren'Py is installed outside this repository and can be used through the Windows 
 
 The local Ren'Py path is recorded in `renpy-path.txt`. That file is intentionally ignored by Git and should not be committed.
 
+## Current Repo Setup
+
+This repo currently uses a minimal hand-scaffolded Ren'Py project:
+
+- `game/options.rpy`
+- `game/script.rpy`
+
+The next project step is team launch/lint verification in Ren'Py 8.5.2 on each contributor's machine. Do not add the Ren'Py SDK, generated cache, saves, logs, build output, or compiled `.rpyc` files to the repo.
+
 ## Verified Commands
 
 Check the installed version:
