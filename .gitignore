@@ -1,0 +1,36 @@
+# Ren'Py generated files
+*.rpyc
+*.rpyb
+*.rpymc
+*.rpa
+*.bak
+*.tmp
+
+# Ren'Py build output
+/build/
+/dist/
+/game/cache/
+/game/saves/
+/game/log.txt
+/game/errors.txt
+/game/traceback.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local notes
+local-notes.md
+renpy-path.txt
+
