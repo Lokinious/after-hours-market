@@ -12,8 +12,8 @@ default cash = 80
 default inventory = 10
 default reputation = 0
 default stress = 0
-default nico_credit = False
 default odd_item_seen = False
+default moon_salt_status = "unknown"
 
 screen shop_stats():
     zorder 100
@@ -98,6 +98,7 @@ label start:
             $ inventory -= 1
             $ reputation += 1
             $ stress += 1
+            $ moon_salt_status = "sold"
             "You slide the packet into a paper bag."
             nico "She said you would understand."
             p "I absolutely do not."
@@ -107,7 +108,7 @@ label start:
             $ inventory -= 1
             $ reputation += 2
             $ stress += 1
-            $ nico_credit = True
+            $ moon_salt_status = "credit"
             nico "I can bring money tomorrow."
             p "Bring an explanation too."
             "Inventory -1. Reputation +2. Stress +1."
@@ -115,6 +116,7 @@ label start:
         "Refuse and put it under the counter.":
             $ reputation -= 1
             $ stress += 2
+            $ moon_salt_status = "kept"
             nico "Please. She said before sundown."
             p "Then she can come before sundown."
             "Nico leaves without looking back."
@@ -165,12 +167,23 @@ label start:
         "The shop is closed."
 
         "Tell the truth.":
-            if nico_credit:
+            if moon_salt_status == "sold":
                 $ reputation += 1
                 $ stress += 1
-                p "Nico has it."
+                p "Nico bought it."
                 late "Good. Then tonight may pass politely."
                 "Reputation +1. Stress +1."
+            elif moon_salt_status == "credit":
+                $ reputation += 1
+                $ stress += 1
+                p "Nico has it. On credit."
+                late "Good. Then tonight may pass politely."
+                "Reputation +1. Stress +1."
+            elif moon_salt_status == "kept":
+                $ stress += 1
+                p "I kept it under the counter."
+                late "Then keep it wrapped. Do not open it after midnight."
+                "Stress +1."
             else:
                 $ stress += 1
                 p "I saw it. I did not sell it."
@@ -214,4 +227,3 @@ label day_one_summary:
     "End of Day 1 prototype."
 
     return
-

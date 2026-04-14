@@ -19,6 +19,7 @@
 - [x] Add second customer interaction.
 - [x] Add late-day strange beat.
 - [x] Add closing summary.
+- [x] Fix moon salt outcome tracking for late-customer truth branch.
 - [ ] Verify game launches in Ren'Py.
 
 ## Later Ideas

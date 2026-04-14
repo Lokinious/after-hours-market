@@ -14,3 +14,4 @@
 - Re-authenticated GitHub CLI as `Lokinious`; authenticated `gh` commands may need normal system keyring access.
 - Created private GitHub repository at `https://github.com/Lokinious/after-hours-market`.
 - Pushed local `master` branch to `origin/master`.
+- Fixed Day 1 moon salt outcome tracking so sold, credit, and kept paths produce distinct late-customer truth dialogue.
