@@ -6,7 +6,7 @@
 - [x] Initialize Git repository.
 - [x] Add AI-friendly repository docs.
 - [x] Check GitHub CLI authentication. Logged in as `Lokinious`.
-- [ ] Create GitHub remote after authentication is fixed.
+- [x] Create GitHub remote after authentication is fixed.
 - [ ] Install or locate Ren'Py 8.5.2.
 - [x] Create or import Ren'Py project structure. Hand-scaffolded minimal `game/` files.
 

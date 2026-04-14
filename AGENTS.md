@@ -24,6 +24,7 @@ This repository is for a small Ren'Py visual novel / light management sim protot
 - Ren'Py is not currently expected to be on PATH.
 - Python 3.11.3, Git, Node/npm, GitHub CLI, and Codex CLI are available locally.
 - GitHub CLI authentication is valid for `Lokinious`; authenticated `gh` commands may need system keyring access.
+- Remote repository: `https://github.com/Lokinious/after-hours-market` (`origin`, private).
 
 ## First Milestone
 
