@@ -6,7 +6,7 @@ The first goal is a compact, playable Day 1 prototype with basic shop stats, rec
 
 ## Status
 
-Planning and scaffold stage.
+Day 1 prototype scaffold stage. The repository now contains minimal Ren'Py files in `game/`, but launch verification is pending until Ren'Py 8.5.2 is installed or located.
 
 ## Core Stats
 
@@ -37,6 +37,8 @@ After Ren'Py is installed, document the local path in a non-committed note if ne
 - `docs/story-bible.md`: tone, premise, characters, and setting.
 - `docs/task-list.md`: incremental work list.
 - `.github/copilot-instructions.md`: GitHub Copilot guidance.
+- `game/options.rpy`: minimal Ren'Py configuration.
+- `game/script.rpy`: first playable Day 1 prototype script.
 
 ## GitHub Remote
 

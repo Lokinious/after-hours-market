@@ -34,3 +34,11 @@ Create a playable Day 1 slice:
 - Make at least one inventory or money choice.
 - Change reputation and stress based on choices.
 - End the day with a short summary.
+
+## Current Project Structure
+
+- `game/options.rpy`: minimal Ren'Py project configuration.
+- `game/script.rpy`: Day 1 prototype script with shop stats and choices.
+- `docs/dev-log.md`: chronological project notes.
+
+Ren'Py launch/lint verification is still pending because Ren'Py is not available on PATH in this session.
